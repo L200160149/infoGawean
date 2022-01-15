@@ -407,25 +407,70 @@ body {
 /**************************/
 .send-container {
   background-color: #f9f9f9;
-  border-radius: 9px;
+  border-radius: 15px;
   width: 90vw;
-  height: 50vh;
-  margin: 0 auto;
+  height: 42rem;
+  margin: 4rem auto;
 }
 
 .p-send-container {
   color: #262160;
   font-size: 2.4rem;
-  /* width: 60vw;
-  margin: 0 auto;
-  text-align: center; */
-  /* padding-top: 9.2rem; */
 }
 
 .form-send {
+  height: 100%;
   display: grid;
   grid-template-rows: repeat(3, 1fr);
-  gap: 4rem;
-  justify-content: center;
+
+  row-gap: 3rem;
   justify-items: center;
+  text-align: center;
+}
+
+.form-send button {
+  padding: 1rem 4rem;
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #fff;
+  border-radius: 9px;
+  box-shadow: 0 0.5rem 3.2rem #2DB3CD;
+
+  background-color: #2DB3CD;
+  border: none;
+  width: 22.2rem;
+  height: 5.6rem;
+
+  transition: all 0.5s;
+}
+
+.form-send button:hover {
+  background-color: #fff;
+  color: #2DB3CD;
+  box-shadow: none;
+  cursor: pointer;
+  border: 1px solid #2DB3CD;
+}
+
+.p-send-container {
+  padding-left: 160px;
+  padding-right: 160px;
+  padding-top: 92px;
+  line-height: 4rem;
+  font-weight: 700;
+  font-size: 2.4rem;
+}
+
+.form-send input {
+  width: 54rem;
+  height: 5.6rem;
+  border: 1px solid #828282;
+  border-radius: 9px;
+  text-align: center;
+  align-self: center;
+}
+
+.form-send input::placeholder {
+  color: #828282;
+  font-size: 1.6rem;
 }
