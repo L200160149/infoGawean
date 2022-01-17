@@ -434,9 +434,9 @@ body {
   font-weight: 700;
   color: #fff;
   border-radius: 9px;
-  box-shadow: 0 0.5rem 3.2rem #2DB3CD;
+  box-shadow: 0 0.5rem 3.2rem #2db3cd;
 
-  background-color: #2DB3CD;
+  background-color: #2db3cd;
   border: none;
   width: 22.2rem;
   height: 5.6rem;
@@ -446,10 +446,10 @@ body {
 
 .form-send button:hover {
   background-color: #fff;
-  color: #2DB3CD;
+  color: #2db3cd;
   box-shadow: none;
   cursor: pointer;
-  border: 1px solid #2DB3CD;
+  border: 1px solid #2db3cd;
 }
 
 .p-send-container {
@@ -473,4 +473,44 @@ body {
 .form-send input::placeholder {
   color: #828282;
   font-size: 1.6rem;
+}
+
+/**************************/
+/* FOOTER */
+/**************************/
+.footer {
+  height: 33rem;
+  background-color: #2db3cd;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  align-content: space-between;
+
+  padding: 9rem 5.5rem 5.5rem 5.5rem;
+}
+
+.footer-heading {
+  color: #fff;
+  font-size: 2.8rem;
+  font-weight: bold;
+  line-height: 4.2rem;
+}
+
+.footer-p {
+  color: #fff;
+  font-size: 2rem;
+  line-height: 3.4rem;
+  font-weight: normal;
+}
+
+.footer-date {
+  color: #fff;
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+  font-weight: normal;
+}
+
+.footer-menu ul {
+  display: flex;
+  list-style-type: none;
+  gap: 3.2rem;
 }
